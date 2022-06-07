@@ -26,5 +26,6 @@ public class sumParity {
                         else
                             System.out.println("Impossible");
 		}
+        sc.close();
     }
 }

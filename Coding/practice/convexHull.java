@@ -1,5 +1,5 @@
 package practice;
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Scanner;
 
 public class convexHull {
@@ -10,8 +10,8 @@ public class convexHull {
         Scanner sc = new Scanner(System.in);
 
         int t = sc.nextInt();
-        ArrayList<Integer> arrx = new ArrayList<Integer>(t);
-        ArrayList<Integer> arry = new ArrayList<Integer>(t);
+        // ArrayList<Integer> arrx = new ArrayList<Integer>(t);
+        // ArrayList<Integer> arry = new ArrayList<Integer>(t);
 
         // int[] arrx = new int[t];
         // int[] arry = new int[t];

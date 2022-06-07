@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class sort012s {
     public static void sort012(int arr[]){
-        int n = arr.length;
+        
         
     }
 

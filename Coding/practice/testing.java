@@ -28,5 +28,6 @@ public class testing {
             // System.out.println(m);
 
         // System.out.println(m);
+        sc.close();
     }
 }

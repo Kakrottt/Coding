@@ -95,5 +95,6 @@ public class GaussianElimination {
             B[i] = scan.nextDouble();
  
         ge.solve(A,B);
+        scan.close();
     }
 }

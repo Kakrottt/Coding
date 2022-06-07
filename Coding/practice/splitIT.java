@@ -9,7 +9,7 @@ public class splitIT {
         long t = sc.nextLong();
 
         for(int i=0; i<t; i++){
-            long n = sc.nextLong();
+            // long n = sc.nextLong();
             String s = sc.nextLine();
 
             for(int j = 0; j<s.length(); j++){

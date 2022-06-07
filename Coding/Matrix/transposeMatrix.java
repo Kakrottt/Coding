@@ -2,8 +2,8 @@ package Matrix;
 
 public class transposeMatrix {
     public void printTranspose(int mat[][]){
-        int r = mat[0].length;
-        int c = mat.length;
+        // int r = mat[0].length;
+        // int c = mat.length;
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = i+1; j < mat[0].length; j++) {

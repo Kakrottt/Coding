@@ -21,9 +21,9 @@ public class snakePattern {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boundryElements BE = new boundryElements();
-        transposeMatrix Tprint = new transposeMatrix();
-        rotateBy90 RT90 = new rotateBy90();
+        // boundryElements BE = new boundryElements();
+        // transposeMatrix Tprint = new transposeMatrix();
+        // rotateBy90 RT90 = new rotateBy90();
         spiralMatrix Spriral = new spiralMatrix();
 
         int mat[][] =  {{1, 2, 3, 4},
