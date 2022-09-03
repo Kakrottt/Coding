@@ -1,7 +1,7 @@
 package Kickstart;
 import java.util.*;
 
-public class Solution {
+public class getHIndexScoreProb {
 
   public static int[] getHIndexScore(int[] citationsPerPaper) {
     int[] hIndex = new int[citationsPerPaper.length];
