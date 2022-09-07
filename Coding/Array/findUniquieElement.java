@@ -1,16 +1,16 @@
 package Array;
 
-import java.util.HashMap;
+// import java.util.HashMap;
 import java.util.Scanner;
 
 public class findUniquieElement {
     static void soln1(int[] arr){
-        HashMap<Integer, Integer> m = new  HashMap<>();
-
-        for (int i = 0; i < arr.length; i++) {
-            m.put(arr[i], m.getOrDefault(arr[i], 0)+1);
+        int l = 0;
+        int r = arr.length-1;
+        while(l<=r){
+            // int mid = (l + r)/2;
+            
         }
-        System.out.println(m.containsValue(1));
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
