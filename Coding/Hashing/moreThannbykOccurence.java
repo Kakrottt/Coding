@@ -14,7 +14,7 @@ public class moreThannbykOccurence {
         for(int i = 0; i < n; i++){
             if(m.containsKey(nums[i]))
                 m.put(nums[i], m.get(nums[i])+1);
-            else if(m.size()<k)
+            else if(m.size() < k)
                 m.put(nums[i], 1);
             else{
                 for(Map.Entry<Integer, Integer> e : m.entrySet()){
@@ -32,10 +32,9 @@ public class moreThannbykOccurence {
                 if(e.getKey()==nums[i])
                     count++;
             }
-            if(count>n/k)
+            if(count>(n/k))
                 res.add(e.getKey());
         }
-        
         return res;
 
     }

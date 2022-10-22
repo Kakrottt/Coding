@@ -1,7 +1,7 @@
 package Recurssion;
 
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 import java.util.Scanner;
 
 public class subsequenceofKSum {
@@ -32,7 +32,7 @@ public class subsequenceofKSum {
         int[] arr = new int[n];
         int k = sc.nextInt();
         int sum = 0;
-        List<Integer> arrl = new ArrayList<>();
+        // List<Integer> arrl = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();

@@ -29,7 +29,7 @@ public class Main {
 
         // System.out.println(moreThannbykOccurence.bigOnkSoln(a, k));
 
-        moreThannbykOccurence.bigOnkSoln(a, k);
+        System.out.println(moreThannbykOccurence.bigOnkSoln(a, k));;
 
         sc.close();
     }
