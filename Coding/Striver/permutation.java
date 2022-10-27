@@ -15,7 +15,7 @@ public class permutation {
     static void soln(List<Integer> arr) throws FileNotFoundException{
         List<List<Integer>> ans = new ArrayList<>();
         Collections.sort(arr);
-        int n = arr.size();
+        // int n = arr.size();
         // boolean[] flag = new boolean[n];
         // printPermutationNaive(n, arr, flag, new ArrayList<>(), ans);
         

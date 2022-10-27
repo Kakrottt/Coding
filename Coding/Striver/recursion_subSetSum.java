@@ -52,5 +52,6 @@ public class recursion_subSetSum {
         subset(0, arr, n, new ArrayList<>());
 
         System.out.print(ans + " ");
+        sc.close();
     }
 }

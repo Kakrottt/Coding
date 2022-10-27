@@ -1,5 +1,4 @@
 package Stack;
-import java.util.Scanner;
 import java.util.Stack;
 
 public class balancedParanthesis {
@@ -29,19 +28,5 @@ public class balancedParanthesis {
            (a == '[' && b == ']'))
             return true;
         return false;
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        //int n = sc.nextInt();
-        String str = sc.next();
-
-        if(soln(str)){
-            System.out.println("Yes");
-        }
-        else
-            System.out.println("No");
-
-            sc.close();
     }
 }
