@@ -24,7 +24,7 @@ public class constructBinaryTree {
             m.put(inOrder.get(i), i);
         }
 
-        TreeNode root = treeFromInorderPreorder(preOrder, 0, preOrder.size() - 1, inOrder, 0, inOrder.size()-1, m);
+        // TreeNode root = treeFromInorderPreorder(preOrder, 0, preOrder.size() - 1, inOrder, 0, inOrder.size()-1, m);
         
         return null;
         
