@@ -30,7 +30,7 @@ public class nAryTree {
 
     static void constructNAryTree(List<Integer> parent, List<Integer> child){
         for(int i = 1; i < parent.size(); i++){
-            List<Integer> ds = new ArrayList<>();
+            // List<Integer> ds = new ArrayList<>();
 
         }
     }

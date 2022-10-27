@@ -44,5 +44,7 @@ public class maxmizeXORofKelements {
 
         System.out.println(res);
 
+        br.close();
+
     }
 }
