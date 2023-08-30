@@ -34,7 +34,7 @@ public class Main {
         singleLinkedList ll = new singleLinkedList();
         Node root = null;
         root = ll.createLList(arr, n);
-        ll.printList(root);
+        // ll.printList(root);
         // root = ll.deleteLast(root);
         // root = ll.insertPos(root, 1, 4);
         // ll.printList(root);

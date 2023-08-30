@@ -135,8 +135,10 @@ public class Main {
 
         // StockSpanProblem st = new StockSpanProblem();
         // PreviousGreaterElement st = new PreviousGreaterElement();
-        NextGreaterElement st = new NextGreaterElement();
-        System.out.println(st.printNextGreater(arr));
+        // NextGreaterElement st = new NextGreaterElement();
+        LargestAreaRetangle st = new LargestAreaRetangle();
+        System.out.println(st.prevSmaller(arr));
+        System.out.println(st.nextSmaller(arr));
 
 
         // myStack st = new myStack(10);
